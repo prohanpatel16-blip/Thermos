@@ -1,0 +1,54 @@
+@import "tailwindcss";
+
+:root {
+  --background: #f4f5f7;
+  --foreground: #1a1d23;
+  --surface: #ffffff;
+  --border: #d1d5db;
+  --muted: #6b7280;
+  --accent: #1d4ed8;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-surface: var(--surface);
+  --color-border: var(--border);
+  --color-muted: var(--muted);
+  --color-accent: var(--accent);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Leaflet base overrides */
+.leaflet-container {
+  font-family: 'Montserrat', sans-serif;
+  background: #e8ecef;
+}
+
+.leaflet-control-zoom a {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+}
+
+/* District hover/select styles */
+.district-layer {
+  cursor: pointer;
+  transition: opacity 0.1s;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background: #c1c1c1;
+  border-radius: 3px;
+}

@@ -1,0 +1,12 @@
+fastapi==0.141.1
+uvicorn==0.52.4
+httpx==0.28.1
+pythermalcomfort==2.10.0
+pydantic>=2.0
+supabase==2.15.3
+python-dotenv==1.0.0
+xgboost==2.1.4
+shap==0.47.2
+scikit-learn>=1.4
+pandas>=2.0
+numpy>=1.26

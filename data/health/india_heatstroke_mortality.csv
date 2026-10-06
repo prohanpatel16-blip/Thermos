@@ -1,0 +1,50 @@
+state,year,heatstroke_deaths
+# Source: "Mortality due to heatstroke and exposure to cold: Evidence from India"
+# DOI: 10.1080/23328940.2025.2475420
+# NCRB Accidental Deaths & Suicides in India, Table 2, state-level data 2001-2014.
+# 14-year totals: Delhi=325, Haryana=542, Uttar Pradesh=1610 (as published).
+# Year-by-year distribution is proportionally estimated from national NCRB hot-year
+# patterns (higher counts in 2002, 2003, 2010, 2012; totals match published figures).
+# These rows calibrate the state health model — individual annual values are estimates.
+Delhi,2001,18
+Delhi,2002,33
+Delhi,2003,37
+Delhi,2004,20
+Delhi,2005,22
+Delhi,2006,19
+Delhi,2007,21
+Delhi,2008,18
+Delhi,2009,20
+Delhi,2010,40
+Delhi,2011,22
+Delhi,2012,27
+Delhi,2013,16
+Delhi,2014,12
+Haryana,2001,32
+Haryana,2002,48
+Haryana,2003,52
+Haryana,2004,36
+Haryana,2005,38
+Haryana,2006,34
+Haryana,2007,37
+Haryana,2008,33
+Haryana,2009,36
+Haryana,2010,49
+Haryana,2011,38
+Haryana,2012,46
+Haryana,2013,32
+Haryana,2014,31
+Uttar Pradesh,2001,95
+Uttar Pradesh,2002,138
+Uttar Pradesh,2003,152
+Uttar Pradesh,2004,106
+Uttar Pradesh,2005,112
+Uttar Pradesh,2006,100
+Uttar Pradesh,2007,110
+Uttar Pradesh,2008,98
+Uttar Pradesh,2009,105
+Uttar Pradesh,2010,143
+Uttar Pradesh,2011,112
+Uttar Pradesh,2012,136
+Uttar Pradesh,2013,96
+Uttar Pradesh,2014,107
